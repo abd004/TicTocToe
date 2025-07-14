@@ -81,3 +81,39 @@ h1{
     transition: box-shadow 0.3s ease;
     transition: 0.3s ease-in;
 }
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 8px;
+    }
+    .game {
+        gap: 4px;
+    }
+    .box {
+        font-size: 1.5rem;
+        border-radius: 6px;
+    }
+    .results h1 {
+        font-size: 1.1rem;
+    }
+    #endgame {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+/* Responsive for tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        max-width: 80vw;
+        padding: 12px;
+    }
+    .box {
+        font-size: 1.7rem;
+    }
+    .results h1 {
+        font-size: 1.2rem;
+    }
+}
